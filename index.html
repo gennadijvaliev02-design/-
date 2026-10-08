@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Стоматология «Ризориус» в Ельце | Лечение зубов, протезирование и пародонтология</title>
+  <meta name="description" content="Частная стоматологическая клиника «Ризориус» в Ельце. Ведущий врач с опытом более 30 лет. Лечение кариеса, аппарат «Vector», эстетическая реставрация, протезирование. Запись по тел.: +7 (951) 302-12-30.">
+  <meta name="keywords" content="стоматология Елец, Ризориус Елец, Катуров Михаил Викторович, лечение зубов Елец, протезирование, аппарат Вектор">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Стоматология «Ризориус» — забота о здоровье вашей улыбки в Ельце">
+  <meta property="og:description" content="Стоматологическая помощь экспертного уровня. Опыт врача более 30 лет, современные технологии и честные цены без скрытых платежей.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Unbounded:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Стоматологическая клиника «Ризориус»",
+    "image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80",
+    "telephone": "+79513021230",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ул. Клубная, д. 4А, вход со двора, 1 этаж, пом. 3",
+      "addressLocality": "Елец",
+      "addressRegion": "Липецкая область",
+      "postalCode": "399770",
+      "addressCountry": "RU"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "16:00"
+      }
+    ],
+    "priceRange": "$$",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "24"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Top Info Bar -->
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__item">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>г. Елец, ул. Клубная, д. 4А (вход со двора)</span>
+      </div>
+      <div class="topbar__item">
+        <i class="fa-regular fa-clock"></i>
+        <span>Вт–Пт: 09:00 – 16:00 | По записи</span>
+      </div>
+      <div class="topbar__right">
+        <a href="tel:+79513021230" class="topbar__phone">
+          <i class="fa-solid fa-phone"></i>
+          <span>+7 (951) 302-12-30</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Navbar -->
+  <nav class="nav" id="navbar">
+    <div class="container nav__inner">
+      <a href="#" class="nav__brand">
+        <div class="nav__logo-icon">
+          <i class="fa-solid fa-tooth"></i>
+        </div>
+        <div class="nav__logo-text">
+          <span class="nav__brand-title">РИЗОРИУС</span>
+          <span class="nav__brand-subtitle">Стоматологическая клиника</span>
+        </div>
+      </a>
+
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#services" class="nav__link">Услуги и цены</a></li>
+        <li><a href="#doctor" class="nav__link">О докторе</a></li>
+        <li><a href="#advantages" class="nav__link">Преимущества</a></li>
+        <li><a href="#calculator" class="nav__link">Калькулятор</a></li>
+        <li><a href="#reviews" class="nav__link">Отзывы</a></li>
+        <li><a href="#contacts" class="nav__link">Контакты</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button class="btn btn--primary" id="openBookingBtn">
+          <i class="fa-regular fa-calendar-check"></i>
+          <span>Записаться на прием</span>
+        </button>
+        <button class="nav__toggle" id="mobileMenuToggle" aria-label="Открыть меню">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero__grid">
+      <div class="hero__content">
+        <div class="hero__badge">
+          <i class="fa-solid fa-shield-halved"></i>
+          <span>Индивидуальный приём без очередей в Ельце</span>
+        </div>
+        <h1 class="hero__title">
+          Здоровье и красота вашей улыбки <span class="gradient-text">с опытом более 30 лет</span>
+        </h1>
+        <p class="hero__desc">
+          Частная стоматологическая практика доктора <strong>Катурова М.В.</strong> Бережное лечение кариеса, реставрация зубов, терапия аппаратом «Vector» и долговечное протезирование по честным ценам.
+        </p>
+        
+        <div class="hero__buttons">
+          <button class="btn btn--primary btn--lg" id="heroBookBtn">
+            <i class="fa-regular fa-calendar-check"></i>
+            <span>Записаться на консультацию</span>
+          </button>
+          <a href="#calculator" class="btn btn--outline btn--lg">
+            <i class="fa-solid fa-calculator"></i>
+            <span>Рассчитать стоимость</span>
+          </a>
+        </div>
+
+        <div class="hero__stats">
+          <div class="stat-card">
+            <div class="stat-card__number">30+</div>
+            <div class="stat-card__label">лет врачебного стажа</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card__number">4.8★</div>
+            <div class="stat-card__label">на Яндекс и ПроДокторов</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card__number">100%</div>
+            <div class="stat-card__label">стерильность по СанПиН</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="hero__image-wrapper">
+          <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=900&q=80" alt="Стоматологический кабинет" class="hero__image">
+          
+          <div class="hero__floating-card card-doctor">
+            <div class="card-doctor__avatar">
+              <i class="fa-solid fa-user-doctor"></i>
+            </div>
+            <div>
+              <div class="card-doctor__name">Катуров Михаил В.</div>
+              <div class="card-doctor__role">Главный врач-стоматолог</div>
+            </div>
+          </div>
+
+          <div class="hero__floating-card card-badge">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>Без боли и стресса</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Info Highlights Banner -->
+  <section class="banner-features">
+    <div class="container banner-features__grid">
+      <div class="feature-item">
+        <div class="feature-item__icon"><i class="fa-solid fa-microscope"></i></div>
+        <div>
+          <h4>Аппарат «Vector»</h4>
+          <p>Щадящее ультразвуковое лечение десен без хирургии</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-item__icon"><i class="fa-solid fa-x-ray"></i></div>
+        <div>
+          <h4>Прицельный радиовизиограф</h4>
+          <p>Мгновенная цифровая диагностика с минимальной лучевой нагрузкой</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <div class="feature-item__icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
+        <div>
+          <h4>Камерный формат</h4>
+          <p>Врач уделяет 100% внимания лично вам, строго по времени</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services & Prices Section -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">Качественная стоматология</span>
+        <h2 class="section-title">Услуги и прозрачные цены</h2>
+        <p class="section-subtitle">Фиксируем стоимость до начала лечения. Никаких навязанных процедур и скрытых доплат.</p>
+      </div>
+
+      <!-- Categories Filter Tabs -->
+      <div class="services__tabs">
+        <button class="tab-btn active" data-category="all">Все услуги</button>
+        <button class="tab-btn" data-category="therapy">Терапия и каналы</button>
+        <button class="tab-btn" data-category="orthopedics">Протезирование</button>
+        <button class="tab-btn" data-category="periodontics">Пародонтология</button>
+        <button class="tab-btn" data-category="hygiene">Гигиена и эстетика</button>
+      </div>
+
+      <div class="services__grid" id="servicesGrid">
+        <!-- Card 1 -->
+        <div class="service-card" data-category="therapy">
+          <div class="service-card__icon"><i class="fa-solid fa-tooth"></i></div>
+          <span class="service-card__badge">Популярное</span>
+          <h3 class="service-card__title">Лечение кариеса</h3>
+          <p class="service-card__text">Бережная обработка, использование современных светоотверждаемых нанокомпозитов с подбором естественного оттенка эмали.</p>
+          <ul class="service-card__list">
+            <li><i class="fa-solid fa-check"></i> Анатомическое моделирование</li>
+            <li><i class="fa-solid fa-check"></i> Качественная изоляция (коффердам)</li>
+            <li><i class="fa-solid fa-check"></i> Гарантия на пломбу</li>
+          </ul>
+          <div class="service-card__footer">
+            <div class="service-card__price">от 2 800 ₽</div>
+            <button class="btn btn--sm btn--primary select-service-btn" data-service="Лечение кариеса">Записаться</button>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="service-card" data-category="therapy">
+          <div class="service-card__icon"><i class="fa-solid fa-syringe"></i></div>
+          <h3 class="service-card__title">Лечение пульпита и периодонтита</h3>
+          <p class="service-card__text">Спасение сложных «безнадежных» зубов. Тщательная механическая и антисептическая обработка каналов с герметичной пломбировкой.</p>
+          <ul class="service-card__list">
+            <li><i class="fa-solid fa-check"></i> Эндодонтический протокол</li>
+            <li><i class="fa-solid fa-check"></i> Рентген-контроль каждого этапа</li>
+            <li><i class="fa-solid fa-check"></i> Надежное купирование боли</li>
+          </ul>
+          <div class="service-card__footer">
+            <div class="service-card__price">от 4 500 ₽</div>
+            <button class="btn btn--sm btn--primary select-service-btn" data-service="Эндодонтия (пульпит/периодонтит)">Записаться</button>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="service-card" data-category="periodontics">
+          <div class="service-card__icon"><i class="fa-solid fa-wave-square"></i></div>
+          <span class="service-card__badge highlight">Специализация</span>
+          <h3 class="service-card__title">Лечение десен аппаратом «Vector»</h3>
+          <p class="service-card__text">Немецкая запатентованная технология очищения пародонтальных карманов микрочастицами гидроксиапатита без травмирования мягких тканей.</p>
+          <ul class="service-card__list">
+            <li><i class="fa-solid fa-check"></i> Устранение кровоточивости и запаха</li>
+            <li><i class="fa-solid fa-check"></i> Безболезненная процедура</li>
+            <li><i class="fa-solid fa-check"></i> Укрепление подвижных зубов</li>
+          </ul>
+          <div class="service-card__footer">
+            <div class="service-card__price">от 3 500 ₽</div>
+            <button class="btn btn--sm btn--primary select-service-btn" data-service="Вектор-терапия десен">Записаться</button>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="service-card" data-category="orthopedics">
+          <div class="service-card__icon"><i class="fa-solid fa-gem"></i></div>
+          <h3 class="service-card__title">Протезирование и коронки</h3>
+          <p class="service-card__text">Восстановление жевательной функции и эстетики зубного ряда: металлокерамика, безметалловые конструкции, культевые вкладки.</p>
+          <ul class="service-card__list">
+            <li><i class="fa-solid fa-check"></i> Высокая точность прилегания</li>
+            <li><i class="fa-solid fa-check"></i> Съемное и несъемное протезирование</li>
+            <li><i class="fa-solid fa-check"></i> Натуральный внешний вид</li>
+          </ul>
+          <div class="service-card__footer">
+            <div class="service-card__price">от 6 000 ₽</div>
+            <button class="btn btn--sm btn--primary select-service-btn" data-service="Ортопедия и протезирование">Записаться</button>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="service-card" data-category="hygiene">
+          <div class="service-card__icon"><i class="fa-solid fa-sparkles"></i></div>
+          <h3 class="service-card__title">Комплексная гигиена и Air-Flow</h3>
+          <p class="service-card__text">Профессиональное снятие твердого зубного камня ультразвуком, устранение налета курильщика и кофе, полировка и фторирование эмали.</p>
+          <ul class="service-card__list">
+            <li><i class="fa-solid fa-check"></i> Осветление эмали на 1–2 тона</li>
+            <li><i class="fa-solid fa-check"></i> Профилактика кариеса и гингивита</li>
+            <li><i class="fa-solid fa-check"></i> Укрепляющий минеральный состав</li>
+          </ul>
+          <div class="service-card__footer">
+            <div class="service-card__price">от 3 000 ₽</div>
+            <button class="btn btn--sm btn--primary select-service-btn" data-service="Профгигиена полости рта">Записаться</button>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="service-card" data-category="hygiene">
+          <div class="service-card__icon"><i class="fa-regular fa-smile-beam"></i></div>
+          <h3 class="service-card__title">Художественная реставрация</h3>
+          <p class="service-card__text">Восстановление сколов, трещин, формы и природной геометрии передних зубов прямо в кресле доктора за 1 визит.</p>
+          <ul class="service-card__list">
+            <li><i class="fa-solid fa-check"></i> Послойная передача прозрачности</li>
+            <li><i class="fa-solid fa-check"></i> Неотличимо от родных зубов</li>
+            <li><i class="fa-solid fa-check"></i> Возможность установки скайсов</li>
+          </ul>
+          <div class="service-card__footer">
+            <div class="service-card__price">от 4 000 ₽</div>
+            <button class="btn btn--sm btn--primary select-service-btn" data-service="Художественная реставрация">Записаться</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="services__note text-center">
+        <p><i class="fa-solid fa-circle-info"></i> Точный план и стоимость лечения формируются после очного осмотра и прицельного снимка. Консультация включает разбор клинической картины.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Doctor Showcase Section -->
+  <section class="section doctor-section" id="doctor">
+    <div class="container doctor-section__inner">
+      <div class="doctor-card">
+        <div class="doctor-card__image-col">
+          <div class="doctor-avatar-wrapper">
+            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80" alt="Доктор Катуров Михаил Викторович" class="doctor-avatar">
+            <div class="doctor-badge">
+              <span class="doctor-badge__years">30+</span>
+              <span class="doctor-badge__text">лет практики в Ельце</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="doctor-card__content">
+          <span class="section-tag">Ведущий специалист клиники</span>
+          <h2 class="doctor-name">Катуров Михаил Викторович</h2>
+          <div class="doctor-title">Врач-стоматолог общей практики, ортопед, терапевт</div>
+          
+          <p class="doctor-bio">
+            «Главный принцип моей работы в клинике «Ризориус» — лечить пациента так, как я лечил бы своих близких. Я не передаю пациентов от врача к врачу: веду прием от первой консультации до итогового результата, помню историю каждого зуба и несу личную ответственность за качество».
+          </p>
+
+          <div class="doctor-features">
+            <div class="doc-feat">
+              <i class="fa-solid fa-award"></i>
+              <div>
+                <strong>Колоссальный клинический опыт</strong>
+                <span>Тысячи спасенных зубов и благодарных отзывов пациентов Ельца</span>
+              </div>
+            </div>
+            <div class="doc-feat">
+              <i class="fa-solid fa-handshake-angle"></i>
+              <div>
+                <strong>Честный подход без коммерции</strong>
+                <span>Никогда не навязываю удаление там, где зуб еще можно сохранить</span>
+              </div>
+            </div>
+            <div class="doc-feat">
+              <i class="fa-solid fa-certificate"></i>
+              <div>
+                <strong>Регулярная сертификация</strong>
+                <span>Владение передовыми методиками ультразвуковой пародонтологии и эндодонтии</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="doctor-action">
+            <button class="btn btn--primary" id="doctorConsultBtn">
+              <i class="fa-regular fa-comment-dots"></i>
+              <span>Записаться лично к Михаилу Викторовичу</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Cost Calculator -->
+  <section class="section calculator-section" id="calculator">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">Прозрачный расчет</span>
+        <h2 class="section-title">Калькулятор ориентировочной стоимости</h2>
+        <p class="section-subtitle">Выберите необходимые процедуры, чтобы рассчитать предварительный бюджет вашего визита.</p>
+      </div>
+
+      <div class="calc-box">
+        <div class="calc-grid">
+          <div class="calc-options">
+            <h3 class="calc-subtitle">1. Выберите категорию и услуги:</h3>
+            
+            <label class="calc-item">
+              <input type="checkbox" class="calc-check" value="800" data-name="Консультация и осмотр с планом лечения" checked>
+              <div class="calc-item__content">
+                <span class="calc-item__title">Консультация и первичный осмотр</span>
+                <span class="calc-item__hint">Оценка состояния полости рта, составление плана</span>
+              </div>
+              <div class="calc-item__price">800 ₽</div>
+            </label>
+
+            <label class="calc-item">
+              <input type="checkbox" class="calc-check" value="2800" data-name="Лечение кариеса (1 зуб)">
+              <div class="calc-item__content">
+                <span class="calc-item__title">Лечение кариеса со световой пломбой</span>
+                <span class="calc-item__hint">Анестезия, обработка, нанокомпозит</span>
+              </div>
+              <div class="calc-item__price">2 800 ₽</div>
+            </label>
+
+            <label class="calc-item">
+              <input type="checkbox" class="calc-check" value="4500" data-name="Лечение пульпита / каналов">
+              <div class="calc-item__content">
+                <span class="calc-item__title">Эндодонтическое лечение (каналы)</span>
+                <span class="calc-item__hint">Обработка, медикаментозная терапия, пломбирование</span>
+              </div>
+              <div class="calc-item__price">4 500 ₽</div>
+            </label>
+
+            <label class="calc-item">
+              <input type="checkbox" class="calc-check" value="3000" data-name="Комплексная гигиена полости рта">
+              <div class="calc-item__content">
+                <span class="calc-item__title">Профессиональная гигиена и чистка</span>
+                <span class="calc-item__hint">Ультразвук + Air-Flow + полировка</span>
+              </div>
+              <div class="calc-item__price">3 000 ₽</div>
+            </label>
+
+            <label class="calc-item">
+              <input type="checkbox" class="calc-check" value="3500" data-name="Курс лечения аппаратом «Vector»">
+              <div class="calc-item__content">
+                <span class="calc-item__title">Вектор-терапия пародонта</span>
+                <span class="calc-item__hint">Глубокая обработка десен ультразвуком</span>
+              </div>
+              <div class="calc-item__price">3 500 ₽</div>
+            </label>
+
+            <label class="calc-item">
+              <input type="checkbox" class="calc-check" value="6500" data-name="Коронка металлокерамическая">
+              <div class="calc-item__content">
+                <span class="calc-item__title">Металлокерамическая коронка</span>
+                <span class="calc-item__hint">Снятие слепка, примерка, фиксация</span>
+              </div>
+              <div class="calc-item__price">6 500 ₽</div>
+            </label>
+          </div>
+
+          <div class="calc-summary">
+            <div class="calc-summary__card">
+              <h3 class="calc-summary__title">Предварительный итог</h3>
+              <p class="calc-summary__desc">Выбранные процедуры:</p>
+              
+              <ul class="calc-summary__list" id="calcSelectedList">
+                <li>Консультация и первичный осмотр</li>
+              </ul>
+
+              <div class="calc-summary__divider"></div>
+
+              <div class="calc-summary__total-wrap">
+                <span class="calc-summary__total-label">Ориентировочно:</span>
+                <span class="calc-summary__total-val" id="calcTotalValue">800 ₽</span>
+              </div>
+
+              <p class="calc-summary__note">
+                <i class="fa-solid fa-shield-heart"></i> При согласии на лечение в день обращения консультация может быть включена в стоимость.
+              </p>
+
+              <button class="btn btn--primary btn--block" id="calcBookBtn">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>Записаться с этим расчетом</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clinic Advantages -->
+  <section class="section advantages" id="advantages">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">Почему нам доверяют</span>
+        <h2 class="section-title">Стандарты стоматологии «Ризориус»</h2>
+        <p class="section-subtitle">Мы создали пространство, где пациенты чувствуют себя спокойно и уверенно.</p>
+      </div>
+
+      <div class="advantages__grid">
+        <div class="advantage-card">
+          <div class="advantage-card__num">01</div>
+          <div class="advantage-card__icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+          <h3 class="advantage-card__title">Прием строго по записи</h3>
+          <p class="advantage-card__text">Никаких очередей в коридоре. На каждого пациента выделяется достаточно времени для спокойной и аккуратной работы.</p>
+        </div>
+
+        <div class="advantage-card">
+          <div class="advantage-card__num">02</div>
+          <div class="advantage-card__icon"><i class="fa-solid fa-pump-medical"></i></div>
+          <h3 class="advantage-card__title">Абсолютная стерильность</h3>
+          <p class="advantage-card__text">Строжайший трехэтапный контроль обработки инструментария по программам «Анти-СПИД» и «Анти-Гепатит» с автоклавированием в вакуумных крафт-пакетах.</p>
+        </div>
+
+        <div class="advantage-card">
+          <div class="advantage-card__num">03</div>
+          <div class="advantage-card__icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+          <h3 class="advantage-card__title">Честная стоимость</h3>
+          <p class="advantage-card__text">Называем финальную стоимость до начала манипуляций. У нас нет скрытых надбавок за «дополнительные ватки и анестетики».</p>
+        </div>
+
+        <div class="advantage-card">
+          <div class="advantage-card__num">04</div>
+          <div class="advantage-card__icon"><i class="fa-solid fa-user-check"></i></div>
+          <h3 class="advantage-card__title">Один постоянный доктор</h3>
+          <p class="advantage-card__text">Лечением руководит опытный врач Михаил Викторович Катуров. Непрерывность наблюдения и глубокое понимание особенностей пациента.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section class="section reviews" id="reviews">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-tag">Реальные отзывы</span>
+        <h2 class="section-title">Что говорят жители Ельца</h2>
+        <p class="section-subtitle">Пациенты доверяют нам свои улыбки целыми семьями на протяжении многих лет.</p>
+      </div>
+
+      <div class="reviews__grid">
+        <div class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__user">
+              <div class="review-avatar">ЕН</div>
+              <div>
+                <div class="review-name">Елена Николаевна</div>
+                <div class="review-source">Яндекс.Карты</div>
+              </div>
+            </div>
+            <div class="review-rating">★★★★★</div>
+          </div>
+          <p class="review-card__text">
+            «Огромная благодарность доктору Катурову Михаилу Викторовичу! Долго искала в Ельце врача, который взялся бы за сложный зуб с кистой без спешки удалить. Михаил Викторович аккуратно пролечил каналы, всё объяснил, зуб спасен! Настоящий специалист своего дела.»
+          </p>
+          <div class="review-card__date">Сентябрь 2024</div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__user">
+              <div class="review-avatar">СВ</div>
+              <div>
+                <div class="review-name">Сергей В.</div>
+                <div class="review-source">ПроДокторов</div>
+              </div>
+            </div>
+            <div class="review-rating">★★★★★</div>
+          </div>
+          <p class="review-card__text">
+            «Отличная стоматология, тихая, чистая и уютная. Поставил металлокерамику на два жевательных зуба. Сели идеально с первого раза, не натирает, ем всё подряд как своими родными. И цены более чем адекватные по сравнению с крупными сетевыми клиниками.»
+          </p>
+          <div class="review-card__date">Август 2024</div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card__header">
+            <div class="review-card__user">
+              <div class="review-avatar">ОК</div>
+              <div>
+                <div class="review-name">Ольга К.</div>
+                <div class="review-source">Отзывы 2ГИС</div>
+              </div>
+            </div>
+            <div class="review-rating">★★★★★</div>
+          </div>
+          <p class="review-card__text">
+            «Проходила лечение аппаратом Vector из-за кровоточивости десен. Результат превзошел ожидания: боль и дискомфорт ушли уже через пару дней после процедуры! Очень деликатный подход, в кабинете чистота и спокойствие. Спасибо «Ризориус»!»
+          </p>
+          <div class="review-card__date">Октябрь 2024</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Accordion Section -->
+  <section class="section faq" id="faq">
+    <div class="container faq__container">
+      <div class="section-header text-center">
+        <span class="section-tag">Вопрос — Ответ</span>
+        <h2 class="section-title">Часто задаваемые вопросы</h2>
+      </div>
+
+      <div class="accordion">
+        <div class="accordion__item">
+          <button class="accordion__header">
+            <span>Больно ли лечить зубы в вашей клинике?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="accordion__body">
+            <p>Нет! Мы применяем современные европейские анестетики артикаинового ряда (убистезин, ультракаин). Перед самим уколом место инъекции может обрабатываться специальным обезболивающим гелем, поэтому даже сам укол ощущается минимально.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__header">
+            <span>Как к вам записаться на прием?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="accordion__body">
+            <p>Клиника работает со вторника по пятницу с 09:00 до 16:00 строго по предварительной записи. Записаться можно позвонив по прямому телефону <strong>+7 (951) 302-12-30</strong> либо оставив онлайн-заявку на этом сайте — администратор перезвонит вам для подтверждения времени.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__header">
+            <span>Как вас найти по адресу Клубная, 4А?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="accordion__body">
+            <p>Здание расположено по адресу ул. Клубная, д. 4А. Вход в клинику «Ризориус» находится <strong>со двора дома</strong>, 1 этаж, помещение №3. На двери и у входа имеется вывеска.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__header">
+            <span>Что такое аппарат «Vector» и кому он показан?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="accordion__body">
+            <p>«Vector» (Германия) — это аппарат для бесконтактного и атравматичного лечения гингивита, пародонтита и пародонтоза. Ультразвуковая энергия передается через лечебную суспензию гидроксиапатита, что позволяет очистить глубокие поддесневые карманы без хирургического разреза.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacts & Map Section -->
+  <section class="section contacts" id="contacts">
+    <div class="container">
+      <div class="contacts__wrapper">
+        <div class="contacts__info">
+          <span class="section-tag">Ждем вас</span>
+          <h2 class="contacts__title">Контакты и расположение</h2>
+          <p class="contacts__desc">Приходите на прием или позвоните для консультации. Мы всегда рады помочь вернуть здоровье вашим зубам.</p>
+
+          <div class="contacts__list">
+            <div class="contact-row">
+              <div class="contact-row__icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <strong>Адрес клиники:</strong>
+                <p>Липецкая обл., г. Елец, ул. Клубная, д. 4А<br><small>(вход со двора, 1 этаж, помещение 3)</small></p>
+              </div>
+            </div>
+
+            <div class="contact-row">
+              <div class="contact-row__icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <strong>Телефон для записи:</strong>
+                <p><a href="tel:+79513021230" class="contact-phone-link">+7 (951) 302-12-30</a></p>
+              </div>
+            </div>
+
+            <div class="contact-row">
+              <div class="contact-row__icon"><i class="fa-regular fa-clock"></i></div>
+              <div>
+                <strong>График работы:</strong>
+                <p>Вторник — Пятница: с 09:00 до 16:00<br><span class="text-muted">Понедельник, Суббота, Воскресенье — выходные</span></p>
+              </div>
+            </div>
+
+            <div class="contact-row">
+              <div class="contact-row__icon"><i class="fa-solid fa-route"></i></div>
+              <div>
+                <strong>Как добраться:</strong>
+                <div class="route-buttons">
+                  <a href="https://yandex.ru/maps/?text=Елец+Клубная+4А" target="_blank" rel="noopener" class="btn btn--sm btn--outline">
+                    <i class="fa-solid fa-map-location-dot"></i> Открыть в Яндекс.Картах
+                  </a>
+                  <a href="https://2gis.ru/search/Елец+Клубная+4А" target="_blank" rel="noopener" class="btn btn--sm btn--outline">
+                    <i class="fa-solid fa-diamond-turn-right"></i> Открыть в 2ГИС
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contacts__map-box">
+          <div class="map-card">
+            <div class="map-card__header">
+              <div class="map-card__status"><span class="status-dot"></span> Сейчас открыта запись</div>
+              <div class="map-card__city">г. Елец</div>
+            </div>
+            
+            <!-- Styled interactive map mockup & quick launcher -->
+            <div class="map-interactive-view">
+              <iframe 
+                src="https://yandex.ru/map-widget/v1/?ll=38.4988%2C52.6195&z=16&pt=38.4988,52.6195,pm2rdm" 
+                width="100%" 
+                height="380" 
+                frameborder="0" 
+                allowfullscreen="true"
+                title="Расположение клиники Ризориус на карте Ельца"
+                style="position:relative; border-radius: 12px; border:0;">
+              </iframe>
+            </div>
+
+            <div class="map-card__footer">
+              <a href="tel:+79513021230" class="btn btn--primary btn--block">
+                <i class="fa-solid fa-phone-volume"></i> Позвонить в «Ризориус»: +7 (951) 302-12-30
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner">
+    <div class="container text-center">
+      <h2 class="cta-banner__title">Не откладывайте здоровье зубов на завтра</h2>
+      <p class="cta-banner__subtitle">Своевременное лечение предотвратит осложнения и сэкономит ваш семейный бюджет.</p>
+      <div class="cta-banner__actions">
+        <button class="btn btn--light btn--lg" id="ctaBookingBtn">
+          <i class="fa-regular fa-calendar-check"></i> Записаться на прием
+        </button>
+        <a href="tel:+79513021230" class="btn btn--outline-light btn--lg">
+          <i class="fa-solid fa-phone"></i> +7 (951) 302-12-30
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__col">
+        <div class="nav__brand footer__brand">
+          <div class="nav__logo-icon">
+            <i class="fa-solid fa-tooth"></i>
+          </div>
+          <div class="nav__logo-text">
+            <span class="nav__brand-title">РИЗОРИУС</span>
+            <span class="nav__brand-subtitle">Стоматологическая клиника</span>
+          </div>
+        </div>
+        <p class="footer__desc">
+          Частная стоматологическая практика доктора Катурова М.В. в городе Елец Липецкой области. Лицензированная медицинская помощь взрослым и подросткам.
+        </p>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__heading">Быстрая навигация</h4>
+        <ul class="footer__links">
+          <li><a href="#services">Услуги и цены</a></li>
+          <li><a href="#doctor">О докторе</a></li>
+          <li><a href="#calculator">Калькулятор стоимости</a></li>
+          <li><a href="#reviews">Отзывы пациентов</a></li>
+          <li><a href="#contacts">Схема проезда</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__heading">Контакты</h4>
+        <p class="footer__contact-line"><i class="fa-solid fa-map-pin"></i> г. Елец, ул. Клубная, 4А, пом. 3</p>
+        <p class="footer__contact-line"><i class="fa-solid fa-phone"></i> +7 (951) 302-12-30</p>
+        <p class="footer__contact-line"><i class="fa-regular fa-clock"></i> Вт–Пт с 09:00 до 16:00</p>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <div>© 2024–2026 Стоматологическая клиника «Ризориус». Все права защищены.</div>
+        <div class="footer__disclaimer">Имеются противопоказания. Необходима консультация специалиста.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal Booking Form -->
+  <div class="modal-backdrop" id="bookingModal">
+    <div class="modal-dialog">
+      <button class="modal-close" id="closeBookingModal" aria-label="Закрыть">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-header">
+        <div class="modal-header__icon"><i class="fa-regular fa-calendar-check"></i></div>
+        <div>
+          <h3 class="modal-title">Запись на прием</h3>
+          <p class="modal-subtitle">Стоматология «Ризориус» • г. Елец</p>
+        </div>
+      </div>
+
+      <form class="booking-form" id="bookingForm">
+        <div class="form-group">
+          <label class="form-label" for="clientName">Ваше имя *</label>
+          <div class="input-with-icon">
+            <i class="fa-regular fa-user"></i>
+            <input type="text" id="clientName" class="form-input" placeholder="Иван Иванов" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="clientPhone">Номер телефона *</label>
+          <div class="input-with-icon">
+            <i class="fa-solid fa-phone"></i>
+            <input type="tel" id="clientPhone" class="form-input" placeholder="+7 (___) ___-__-__" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="serviceSelect">Интересующая услуга</label>
+          <div class="input-with-icon">
+            <i class="fa-solid fa-tooth"></i>
+            <select id="serviceSelect" class="form-input">
+              <option value="Консультация и первичный осмотр">Консультация и первичный осмотр</option>
+              <option value="Лечение кариеса">Лечение кариеса</option>
+              <option value="Лечение пульпита / каналов">Лечение пульпита / каналов</option>
+              <option value="Вектор-терапия десен">Лечение десен аппаратом «Vector»</option>
+              <option value="Протезирование и коронки">Протезирование и коронки</option>
+              <option value="Профгигиена и чистка">Профессиональная гигиена и чистка</option>
+              <option value="Художественная реставрация">Художественная реставрация</option>
+              <option value="Острая зубная боль">Острая зубная боль (срочный прием)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="prefDate">Желаемый день (Вт–Пт)</label>
+            <input type="date" id="prefDate" class="form-input">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="prefTime">Время</label>
+            <select id="prefTime" class="form-input">
+              <option value="Утро (09:00 - 12:00)">Утро (09:00 - 12:00)</option>
+              <option value="День (12:00 - 16:00)">День (12:00 - 16:00)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="clientComment">Комментарий или жалобы</label>
+          <textarea id="clientComment" class="form-input" rows="2" placeholder="Например: беспокоит зуб при приеме холодного/горячего..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--primary btn--block btn--lg">
+          <i class="fa-regular fa-paper-plane"></i> Отправить заявку
+        </button>
+
+        <p class="form-privacy">
+          Нажимая кнопку, вы соглашаетесь на обработку персональных данных. Администратор клиники перезвонит вам в течение рабочего дня.
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toastNotification">
+    <div class="toast__icon"><i class="fa-solid fa-circle-check"></i></div>
+    <div class="toast__body">
+      <div class="toast__title" id="toastTitle">Заявка успешно отправлена!</div>
+      <div class="toast__desc" id="toastDesc">Администратор клиники «Ризориус» свяжется с вами по указанному телефону.</div>
+    </div>
+  </div>
+
+  <!-- Quick Floating Action for Mobile -->
+  <div class="floating-contact">
+    <a href="tel:+79513021230" class="floating-btn floating-btn--phone" title="Быстрый звонок">
+      <i class="fa-solid fa-phone"></i>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
